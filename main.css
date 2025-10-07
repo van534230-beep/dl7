@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container {
+    display: flex;
+    /* Chỉ flex nếu cần layout ngang */
+}
+
+.menu {
+    padding: 176px 0 540px 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.menu_box {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.icon_box {
+    width: 78px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_box img {
+    width: 24px;
+    height: 24px;
+}
+
+.content {
+    background-color: rgb(249, 249, 249);
+    padding: 32px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+}
+
+.text_box {
+    display: flex;
+    flex-direction: column;
+    /*các hạng mục sẽ dc đặt từ trên xuống*/
+    width: 30%;
+    gap: 12px;
+}
+
+.title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(62, 67, 93, 1);
+}
+
+.text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(173, 167, 167, 1);
+}
+
+.head2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 70%;
+    height: 52px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    height: 52px;
+    width: 294px;
+}
+
+.search img {
+    height: 24px;
+    width: 24px;
+    margin: 20px;
+}
+
+.bell {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+.bell img {
+    height: 24px;
+    width: 24px;
+}
+
+.person {
+    height: 52px;
+    width: 52px;
+    border-radius: 10px;
+}
+
+.body {
+    margin-top: 32px;
+    width: 100%;
+    border-radius: 10px 0 0 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.background_content {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px 0 0 0;
+}
+
+.background_content img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 0;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-account{
+    display: flex;
+    gap:24px;
+    align-items: center;
+}
+.avt2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.text-acccount{
+    display: flex;
+    flex-direction: column;/*các hạng mục dc đặt từ trên xuống*/
+    gap:6px ;
+}
+.name{
+    margin: 0;
+    color:rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+.mail{
+    margin: 0;
+    color:rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 50%;
+}
+.button{
+    width: 93px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(65, 130, 249, 1);
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.form{
+    margin: 30px 0px 32px 0;
+    gap: 32px;
+    width: 100%;
+    display: flex;
+}
+.box-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 25px;
+}
+.input-form{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.tittle-input{
+    margin: 0;
+    color: black;
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-form{
+    margin: 0;
+    opacity: 40%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 52px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0 14px 0 20px;
+    background-color: rgba(249, 249, 249, 1);
+}
+.text-input{
+    margin: 0;
+    opacity: 40%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input img{
+    opacity: 50%;
+    width: 24px;
+    height: 24px;
+}
+.email{
+    margin-top: 32px;
+    width: 266px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.my-email{
+   margin: 0;
+    font-size: 18px;
+    height: 27px;
+    font-weight: 500;
+    width: 266px;
+    flex-direction: column;/*các hạng mục đặt từ trên xuống dưới*/
+}
+.box-email{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 266px;
+}
+.icon-email{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: rgba(65, 130, 249, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-email img{
+    width: 24px;
+    height: 24px;
+}
+.name-email{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+.time-email{
+    margin: 6px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    opacity: 50%;
+}
+.button-email{
+    width: 209px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(65, 130, 249, 0.1);
+    color: rgba(65, 130, 249, 1);
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+}
