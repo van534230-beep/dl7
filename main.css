@@ -1,14 +1,18 @@
-body {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Poppins;
-}
 
+body {
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
 .container {
     display: flex;
     /* Chỉ flex nếu cần layout ngang */
 }
-
+.container-content{
+    padding: 32px 40px;
+}
 .menu {
     padding: 176px 0 540px 0;
     background-color: rgba(255, 255, 255, 1);
@@ -40,13 +44,12 @@ body {
     padding: 32px 40px;
     width: 100%;
     box-sizing: border-box;
-    flex-direction: column;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
-    gap: 12px;
+    align-items: center;
     width: 100%;
 }
 
@@ -62,12 +65,13 @@ body {
     margin: 0;
     font-weight: 500;
     font-size: 24px;
-    color: rgba(62, 67, 93, 1);
+    color: #3e435d;
 }
 
 .text {
     margin: 0;
     font-size: 16px;
+    font-style: light;
     font-weight: 400;
     color: rgba(173, 167, 167, 1);
 }
@@ -87,14 +91,14 @@ body {
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 1);
     height: 52px;
-    width: 294px;
+    width: 354px;
 }
 
 .search img {
     height: 24px;
     width: 24px;
     margin: 20px;
-   
+    position: absolute;
 }
 .search input{
     font-size: 16px;
@@ -161,7 +165,7 @@ body {
     height: 100px;
     border-radius: 100%;
 }
-.text-acccount{
+.text-account{
     display: flex;
     flex-direction: column;/*các hạng mục dc đặt từ trên xuống*/
     gap:6px ;
@@ -171,6 +175,7 @@ body {
     color:rgba(0, 0, 0, 1);
     font-weight: 500;
     font-size: 20px;
+    
 }
 .mail{
     margin: 0;
@@ -200,19 +205,19 @@ body {
     gap: 25px;
 }
 .input-form{
-  
     display: flex;
     flex-direction: column;
     gap: 12px;
+    
 }
 .tittle-input{
     margin: 0;
-    color: black;
+    color: rgba(0, 0, 0, 1);;
     opacity: 80%;
     font-weight: 400;
     font-size: 16px;
 }
-.text-form{
+.text-input{
     margin: 0;
     opacity: 40%;
     font-size: 16px;
@@ -250,10 +255,8 @@ body {
 .my-email{
    margin: 0;
     font-size: 18px;
-    height: 27px;
     font-weight: 500;
-    width: 266px;
-    flex-direction: column;/*các hạng mục đặt từ trên xuống dưới*/
+     color: rgba(0, 0, 0, 1);
 }
 .box-email{
     display: flex;
@@ -278,13 +281,13 @@ body {
     margin: 0;
     font-weight: 400;
     font-size: 16px;
-    color: black;
+    color: rgba(0, 0, 0, 1);
 }
 .time-email{
     margin: 6px 0 0 0;
     font-weight: 400;
     font-size: 16px;
-    color: black;
+    color: rgba(0, 0, 0, 1);
     opacity: 50%;
 }
 .button-email{
