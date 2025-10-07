@@ -231,7 +231,7 @@ body {
     height: 52px;
     width: 100%;
     border-radius: 8px;
-    padding: 0 14px 0 20px;
+    padding: 14px  20px;
     background-color: rgba(249, 249, 249, 1);
 }
 .text-input{
