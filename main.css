@@ -27,7 +27,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.highlight{
+    background: linear-gradient(to left, rgba(65, 130, 249, 0.2),rgba(65, 130, 249, 0.01));
+}
 .icon_box img {
     width: 24px;
     height: 24px;
@@ -92,7 +94,7 @@ body {
     height: 24px;
     width: 24px;
     margin: 20px;
-    position: absolute;
+   
 }
 .search input{
     font-size: 16px;
