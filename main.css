@@ -11,7 +11,7 @@ body {
     /* Chỉ flex nếu cần layout ngang */
 }
 .container-content{
-    padding: 32px 40px;
+    padding: 32px 32px 71px 32px;
 }
 .menu {
     padding: 176px 0 540px 0;
@@ -51,14 +51,17 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
 }
 
 .text_box {
     display: flex;
     flex-direction: column;
     /*các hạng mục sẽ dc đặt từ trên xuống*/
-    width: 30%;
+    /*width: 30%;*/
     gap: 12px;
+    width: 233px;
+
 }
 
 .title {
@@ -66,6 +69,7 @@ body {
     font-weight: 500;
     font-size: 24px;
     color: #3e435d;
+
 }
 
 .text {
@@ -80,7 +84,7 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-    width: 70%;
+    width: 489px;
     height: 52px;
 }
 
@@ -193,7 +197,7 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 .form{
-    margin: 30px 0px 32px 0;
+    margin: 30px 0px 64px ;
     gap: 32px;
     width: 100%;
     display: flex;
